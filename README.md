@@ -1,16 +1,18 @@
-# AI Agent Demo 🚀
+# AI Agent Application Development Project
 
 A practical AI Agent development project built with Python and Large Language Models.
 
 ## Overview
 
-This repository records my journey of building AI Agent applications, focusing on LLM API integration, prompt engineering, tool calling and agent workflows.
+This repository records my journey of building AI Agent applications, focusing on LLM API integration, prompt engineering, structured output, tool calling and agent workflows.
 
 ## Tech Stack
 
 - Python
-- LLM API
+- LangChain
+- Qwen3-8B (via SiliconFlow API)
 - Prompt Engineering
+- Pydantic Structured Output
 - Tool Calling
 - RAG
 - MCP
@@ -21,10 +23,13 @@ This repository records my journey of building AI Agent applications, focusing o
 - ✅ Project environment setup
 - ✅ Python virtual environment management
 - ✅ Dependency management with requirements.txt
-- ⏳ LLM API integration
-- ⏳ System Prompt design
+- ✅ LLM API integration
+- ✅ Prompt Template design
+- ✅ Structured Output with Pydantic Parser
+- ✅ LLM Tool Calling with custom Python tools
+- ✅ Tool execution workflow
+- ⏳ Agent execution workflow
 - ⏳ Multi-turn conversation
-- ⏳ Tool Calling
 - ⏳ RAG Knowledge Assistant
 - ⏳ MCP Agent
 
@@ -38,6 +43,7 @@ ai-agent-demo
 ├── README.md
 └── .gitignore
 
+
 Environment Setup
 
 Install dependencies:
@@ -47,8 +53,7 @@ pip install -r requirements.txt
 Run:
 
 python main.py
-
-Future Plans：
+Future Plans
 
 Build a complete AI Agent system with:
 
@@ -56,3 +61,4 @@ Memory management
 External tools
 Knowledge retrieval
 Multi-agent collaboration
+Agent workflow orchestration
